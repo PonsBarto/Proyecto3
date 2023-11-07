@@ -1,0 +1,53 @@
+
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.background{
+    height: 90vh;
+}
+
+.heigthNavbar{
+    height: 10vh;
+}
+
+/* Pagina de inicio */
+
+.backgroundHome {
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(135deg, #000000, #313130, #626262, #c6c6c6);
+}
+
+.titulo{
+    font-family:sans-serif ;
+    font-size: 1em;
+    
+}
+
+.boton{
+    height: 2em;
+    border-radius: 0.4em;
+    background-image: linear-gradient(135deg, #c6c6c6, #626262,#313130,#000000);
+    
+    color: rgb(255, 255, 255);
+    font-size: x-large;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
