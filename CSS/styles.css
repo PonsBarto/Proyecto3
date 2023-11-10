@@ -1,10 +1,14 @@
 
-body {
+*{
+    font-family: 'Electrolize', sans-serif;
+}
+
+html body {
     width: 100vw;
     height: 100vh;
     margin: 0;
     padding: 0;
-    
+    background-color: rgb(226, 131, 43);
 }
 
 .background{
@@ -13,20 +17,23 @@ body {
 
 .heigthNavbar{
     height: 10vh;
+   
+    
 }
+
 
 /* Pagina de inicio */
 
 .backgroundHome {
     height: 100vh;
     width: 100vw;
-    background-image: linear-gradient(135deg, #000000, #313130, #626262, #c6c6c6);
+    background-color: rgb(226, 131, 43);
 }
 
 .titulo{
     font-family:sans-serif ;
     font-size: 1em;
-    
+    color: white;    
 }
 
 .boton{
@@ -41,6 +48,14 @@ body {
     align-items: center;
     justify-content: center;
     cursor: pointer;
+}
+
+/* ABOUT */
+
+.borderAbout{
+    border: 0.3em ;
+    border-radius: 1em;
+    background-image: linear-gradient(135deg, #c6c6c6, #626262,#313130,#000000);
 }
 
 
