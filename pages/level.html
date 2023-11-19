@@ -16,7 +16,7 @@
         </div>
     </div>
 
-    <!--Navbar-->
+    <!--NAVBAR-->
     <div class="">
         <nav class="navbar bg-dark border-bottom border-body navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
             <div class="container-fluid">
@@ -41,28 +41,31 @@
   </div>
 
     <div class="container-fluid background text-light fs-6">
+    
+    <!-- NOMBRE JUGADOR -->
+    <div class="row d-flex ">
+        <div class="col-12 col-md-4 my-5 d-flex align-items-center">
+           <h1 class="ms-md-5 nik">NickName:</h1>
+        </div>
+        <div class="col-12 col-md-8 d-flex align-items-md-center justify-content-md-start">
+            <input type="text" class="col-12 col-md-5 fs-4" placeholder="Player" id="playerName" maxlength="40">
+        </div>
+    </div>  
 
-    <!-- INSTRUCTIONS -->
-        
-    <div class="row d-flex justify-content-center align-items-center stars py-3 my-5">
-        <div class="col-10 col-md-6 py-4 borderAbout d-flex justify-content-center">
-            <div class="how">
-                <h3>How to play:</h3>
-                <p>Guess the colours.</p>
-                <p>In <strong>Beginner</strong>, you will play 4 possible colours and 10 attempts. </p>
-                <p>In <strong>Intermediate</strong>, you will have 5 colours to choose from and 8 attempts.</p>
-                <p>In <strong>Advanced</strong>, you will have 6 colours to combine and 6 attempts.</p>
-                <p>With the available colours you must try combinations until you find the solution.</p>
-                <p>When you press the check button you will see how many colours</p>
-                <p>you have found in the correct spot (marked with purple balls)</p>
-                <p>and how many colours you got right, but in the wrong spot (marked with white balls).</p>
-                <p> Good luck!</p>
-            </div>
+    <!-- NIVEL -->
+    <div class="row row-cols-1 row-cols-md-3 h-50">
+        <div class="col d-flex justify-content-center">
+            <a href="./colours.html" class="col-10 boton" onclick="saveLevelBeginner(); onclick=saveName()">BEGINNER</a>
+        </div>
+        <div class="col d-flex justify-content-center">
+            <a href="./colours.html" class="col-10 boton" onclick="saveLevelIntermediate(); onclick=saveName()">INTERMEDIATE</a>
+        </div>
+        <div class="col d-flex justify-content-center">
+            <a href="./colours.html" class="col-10 boton" onclick="saveLevelAdvanced(); onclick=saveName()">ADVANCED</a>
         </div>
     </div>
-</div>
 
-<!--FOOTER-->
+  <!--FOOTER-->
 <div class="footer">
     <footer class="py-3 my-4">
         <ul class="nav justify-content-center">
@@ -75,7 +78,6 @@
     </footer>
 </div>
 
-   
     <!--JS-->
     <script src="/JS/main.js"></script>
     <!--Bootstrap-->
